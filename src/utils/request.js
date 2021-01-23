@@ -1,7 +1,5 @@
 import axios from "axios"
 
-
-
 export default (url, options = { method : 'get' }) => {
     return axios({
         ...options,
